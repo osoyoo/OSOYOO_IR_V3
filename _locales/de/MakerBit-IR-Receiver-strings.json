@@ -1,9 +1,9 @@
 {
-  "IrButton.CH_reduce|block": "CH-",
+  "IrButton.CHreduce|block": "CH-",
   "IrButton.CH|block": "CH",
-  "IrButton.CH_add|block": "CH+",
-  "IrButton.Fast_rewind|block": "⏮",
-  "IrButton.Fast_forward|block": "⏭",
+  "IrButton.CHadd|block": "CH+",
+  "IrButton.Fastrewind|block": "⏮",
+  "IrButton.Fastforward|block": "⏭",
   "IrButton.Play|block": "⏯",
   "IrButton.Reduce|block": "-",
   "IrButton.Add|block": "+",

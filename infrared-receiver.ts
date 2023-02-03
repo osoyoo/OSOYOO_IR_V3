@@ -3,15 +3,15 @@
 
 const enum IrButton {
   //% block="CH-"
-  CH_reduce = 0xa2,
+  CHreduce = 0xa2,
   //% block="CH"
   CH = 0x62,
   //% block="CH+"
-  CH_add = 0xe2,
+  CHadd = 0xe2,
   //% block="⏮"
-  Fast_rewind = 0x22,
+  Fastrewind = 0x22,
   //% block="⏭"
-  Fast_forward = 0x02,
+  Fastforward = 0x02,
   //% block="⏯"
   Play = 0xc2,
   //% block="-"
