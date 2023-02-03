@@ -3,8 +3,8 @@
  */
 
 makerbit.connectIrReceiver(DigitalPin.P0, IrProtocol.NEC);
-makerbit.onIrButton(IrButton.Add, IrButtonAction.Pressed, () => {});
-makerbit.onIrButton(IrButton.CH, IrButtonAction.Released, () => {});
+makerbit.onIrButton(IrButton.Ok, IrButtonAction.Pressed, () => {});
+makerbit.onIrButton(IrButton.Up, IrButtonAction.Released, () => {});
 makerbit.onIrDatagram(() => {});
 const received: boolean = makerbit.wasIrDataReceived();
 const button: number = makerbit.irButton();
