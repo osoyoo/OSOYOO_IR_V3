@@ -1,49 +1,49 @@
-// OSOYOO_BlackIR_V3 blocks supporting a OSOYOO Infrared Wireless Module Kit
+// OSOYOO_IR_V3 blocks supporting a OSOYOO Infrared Wireless Module Kit
 // (receiver module+remote controller)
 
 const enum IrButton {
-  //% block="1"
-  Number_1 = 0xa2,
-  //% block="2"
-  Number_2 = 0x62,
-  //% block="3"
-  Number_3 = 0xe2,
-  //% block="4"
-  Number_4 = 0x22,
-  //% block="5"
-  Number_5 = 0x02,
-  //% block="6"
-  Number_6 = 0xc2,
-  //% block="7"
-  Number_7 = 0xe0,
-  //% block="8"
-  Number_8 = 0xa8,
-  //% block="9"
-  Number_9 = 0x9,
-  //% block="*"
-  Star = 0x68,
+  //% block="CH-"
+  CH_reduce = 0xa2,
+  //% block="CH"
+  CH = 0x62,
+  //% block="CH+"
+  CH_add = 0xe2,
+  //% block="⏮"
+  Fast_rewind = 0x22,
+  //% block="⏭"
+  Fast_forward = 0x02,
+  //% block="⏯"
+  Play = 0xc2,
+  //% block="-"
+  Reduce = 0xe0,
+  //% block="+"
+  Add = 0xa8,
+  //% block="EQ"
+  EQ = 0x90,
   //% block="0"
-  Number_0 = 0x98,
-  //% block="#"
-  Hash = 0xb,
-  //% block="any"
-  Any = -1,
-  //% block="▲"
-  Up = 0x18,
-  //% block=" "
-  Unused_2 = -2,
-  //% block="◀"
-  Left = 0x10,
-  //% block="OK"
-  Ok = 0x38,
-  //% block="▶"
-  Right = 0x5a,
-  //% block=" "
-  Unused_3 = -3,
-  //% block="▼"
-  Down = 0x4a,
-  //% block=" "
-  Unused_4 = -4,
+  Number_0 = 0x68,
+  //% block="100+"
+  Number_100 = 0x98,
+  //% block="200+"
+  Number_200 = 0xb0,
+  //% block="1"
+  Number_1 = 0x30,
+  //% block="2"
+  Number_2 = 0x18,
+  //% block="3"
+  Number_3 = 0x7a,
+  //% block="4"
+  Number_4 = 0x10,
+  //% block="5"
+  Number_5 = 0x38,
+  //% block="6"
+  Number_6 = 0x5a,
+  //% block="7"
+  Number_7 = 0x42,
+  //% block="8"
+  Number_8 = 0x41,
+  //% block="9"
+  Number_9 = 0x52,
 }
 
 const enum IrButtonAction {
@@ -60,8 +60,8 @@ const enum IrProtocol {
   NEC = 1,
 }
 
-//% color=#0fbc11 icon="\uf1eb" block="OSOYOO_BlackIR_V3"
-//% category="OSOYOO_BlackIR_V3"
+//% color=#0fbc11 icon="\uf1eb" block="OSOYOO_IR_V3"
+//% category="OSOYOO_IR_V3"
 namespace makerbit {
   let irState: IrState;
 
