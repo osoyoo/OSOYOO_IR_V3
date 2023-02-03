@@ -1,0 +1,19 @@
+{
+    "name": "OSOYOO-IR-BLACK-Receiver",
+    "version": "1.5.14",
+    "description": "MakeCode extension for OSOYOO Infrared Wireless Module Kit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "background": "github:1010Technologies/pxt-makerbit-background#v1.0.1"
+    },
+    "files": [
+        "README.md",
+        "infrared-receiver.ts",
+        "_locales/de/MakerBit-IR-Receiver-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
