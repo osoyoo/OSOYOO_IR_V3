@@ -32,7 +32,7 @@
   "makerbit.onIrButton|block": "on IR button | %button | %action",
   "makerbit.onIrDatagram|block": "on IR datagram received",
   "makerbit.wasIrDataReceived|block": "IR data was received",
-  "makerbit|block": "OSOYOO_BlackIR_V3",
-  "{id:category}Makerbit": "OSOYOO_BlackIR_V3",
+  "makerbit|block": "OSOYOO_SilveryIR_V3",
+  "{id:category}Makerbit": "OSOYOO_SilveryIR_V3",
   "{id:subcategory}IR Receiver": "IR Receiver"
 }
