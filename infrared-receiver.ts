@@ -41,7 +41,7 @@ const enum IrButton {
   //% block="7"
   Number_7 = 0x42,
   //% block="8"
-  Number_8 = 0x41,
+  Number_8 = 0x4a,
   //% block="9"
   Number_9 = 0x52,
   //% block="any"
